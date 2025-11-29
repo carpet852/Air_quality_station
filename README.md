@@ -24,7 +24,7 @@ CAD design done in Fusion360, 3D files exported for 3D-printing.
 2. SPS30 sensor box: built to integrate the Sensirion laser sensor and the Yocto-Serial, connected to the RPi with a USB cable.  
 3. LED box: built to integrate 3 leds (green/yellow/red) that give a convenient indication of the pollution level.  
 
-## Firmware
+## Software
 RPi model: RPi2 modelB with Raspbian9  
 Webserver: Lighttpd  
 Web app: [YoctoCloud](https://github.com/yoctopuce/YoctoCloud) PHP scripts from Yoctopuce. A better web app has been released by Yoctopuce since then.  
