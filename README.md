@@ -22,7 +22,7 @@ This system has been running continuously for years at my home.
 CAD design done in Fusion360, 3D files exported for 3D-printing.  
 1. GP2Y1010AU0F sensor box: built to integrate the Sharp sensor and an Arduino Micro board, connected to the RPi with a USB cable.  
 2. SPS30 sensor box: built to integrate the Sensirion laser sensor and the Yocto-Serial, connected to the RPi with a USB cable.  
-3. LED box: built to integrate 3 leds (green/yellow/red) that give a convenient inidcation of the pollution level.  
+3. LED box: built to integrate 3 leds (green/yellow/red) that give a convenient indication of the pollution level.  
 
 ## Firmware
 RPi model: RPi2 modelB with Raspbian9  
