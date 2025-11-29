@@ -7,7 +7,7 @@ This is a DIY project to build a basic Air Quality station with 2 kind of sensor
 
 Volatile Organic Compounds (VOC) and Particule Matter (PM) are 2 important categories of air pollutants.  
 Several commercial products I looked at were on a subscription-based model, with the data on the cloud.  
-I wanted a self-contained system running on a Raspberry Pi, with a webserver for data visualization.  
+I wanted a self-contained system running on a Raspberry Pi, with a web app for data visualization.  
 This system has been running continuously for years at my home.  
 
 ## Sensors
