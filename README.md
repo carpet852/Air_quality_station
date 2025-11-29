@@ -29,8 +29,7 @@ RPi model: RPi2 modelB with Raspbian9
 Webserver: Lighttpd  
 Web app: [YoctoCloud](https://github.com/yoctopuce/YoctoCloud) PHP scripts from Yoctopuce. A better web app has been released by Yoctopuce since then.  
 Python: need to install the YoctoLib python library.  
-The Python script that controls the LEDs is running as a service.  
+The Python script that controls the LEDs is running as a [service](https://nerdynat.com/programming/2019/run-python-on-your-raspberry-pi-as-background-service/).  
 Yoctopuce provides a Virtulhub web interface to display the sensors status.   
-Virtualhub is also used to configure the sensors.
-
+Virtualhub is also used to configure the sensors (cf. screenshots).
 
