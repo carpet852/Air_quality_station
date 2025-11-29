@@ -2,8 +2,8 @@
 
 ## Objective
 This is a DIY project to build a basic Air Quality station with 2 kind of sensors:  
-- meteo: temperature/humidity/pressure
-- air pollution: PM2.5/PM10 detector + VOC sensor
+- meteo: temperature/humidity/pressure  
+- air pollution: PM2.5/PM10 detector + VOC sensor  
 Volatile Organic Compounds (VOC) and Particule Matter (PM) are 2 important categories of air pollutants.  
 Several commercial products I looked at were on a subscription-based model, with the data on the cloud.  
 I wanted a self-contained system running on a Raspberry Pi.  
