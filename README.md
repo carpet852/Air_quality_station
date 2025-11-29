@@ -13,10 +13,10 @@ This system has been running continuously for years at my home.
 ## Sensors
 1. Dust sensor: built with a Sharp GP2Y1010AU0F analog dust sensor and an arduino board.  
    It is not a very accurate sensor so I discarded it.  
-2. PM sensor: after some research, I chose a Sensirion SPS30 laser PM sensor that is pretty accurate.  
+2. PM sensor: after some research, I picked a Sensirion SPS30 laser PM sensor that is pretty accurate.  
    This sensor has a UART interface so I used a Yocto-Serial board to connect to the RPi.  
-3. VOC sensor: I used a Yocto-VOC-V3 board.  
-4. Meteo: I used a Yocto Meteo board with temperature/humidity/pressure sensors.  
+3. VOC sensor: I used a Yoctopuce Yocto-VOC-V3 board.  
+4. Meteo: Yoctopuce Yocto Meteo board with temperature/humidity/pressure sensors.  
 
 ## Mechanics
 CAD design done in Fusion360, 3D files exported for 3D-printing.  
@@ -30,7 +30,7 @@ Webserver: Lighttpd
 Web app: [YoctoCloud](https://github.com/yoctopuce/YoctoCloud) PHP scripts from Yoctopuce. A better web app has been released by Yoctopuce since then.  
 Python: need to install the YoctoLib python library.  
 The Python script that controls the LEDs is running as a service.  
-Yoctopuce provides a Virtulahub interface to display the sensors status. Virtualhub is also used to configure the sensors.  
-
+Yoctopuce provides a Virtulhub web interface to display the sensors status.   
+Virtualhub is also used to configure the sensors.
 
 
