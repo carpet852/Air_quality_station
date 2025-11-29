@@ -1,0 +1,4 @@
+# https://www.yoctopuce.com/EN/article/how-to-begin-with-yoctopuce-devices-on-linux
+# path: /etc/udev/rules.d/
+# udev rules to allow write access to all users for Yoctopuce USB devices
+SUBSYSTEM=="usb", ATTR{idVendor}=="24e0", MODE="0666"

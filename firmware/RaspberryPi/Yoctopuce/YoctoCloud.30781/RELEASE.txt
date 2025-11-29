@@ -1,0 +1,2 @@
+- Bump max data series to 4 (Fix from GitHub)
+- Remove protocol specification for external js libs (Fix from GitHub)
